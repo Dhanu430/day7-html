@@ -1,0 +1,31 @@
+.container ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.item1{
+    border:2px solid black;
+}
+.item2{
+    border: 2px solid black;
+}
+.item3{
+    border: 2px solid black;
+}
+.item4{
+    border: 2px solid black;
+}
+.item1:hover{
+    transform: rotate(70deg);
+}
+.item2:hover{
+    transform: scale(2,1);
+}
+.item3:hover{
+    transform: skew(30deg);
+}
+.item4:hover{
+    transform: translateY(-20px);
+}
